@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+//Time comeplexity: O(m * n)
+//Space complexity: O(m * n)
+//Intuition: We can use dynamic programming to solve this problem. 
+// Take from the top-left corner of the grid and move to the bottom-right corner.
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
         int[][] d = new int[m][n];
